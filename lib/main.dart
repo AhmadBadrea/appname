@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
       ],
 
+
       
       // --- 5. استخدام Consumer لجعل MaterialApp يستجيب لتغييرات الثيم ---
       child: Consumer<ThemeProvider>(
