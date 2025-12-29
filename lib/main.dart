@@ -30,6 +30,9 @@ class MyApp extends StatelessWidget {
       ],
 
 
+
+
+
       
       // --- 5. استخدام Consumer لجعل MaterialApp يستجيب لتغييرات الثيم ---
       child: Consumer<ThemeProvider>(
