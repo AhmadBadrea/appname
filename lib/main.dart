@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // --- 4. استخدام MultiProvider لتوفير كل خدمات إدارة الحالة ---
     return MultiProvider(
+      
       providers: [
         // توفير خدمة إدارة حالة المصادقة
         ChangeNotifierProvider(create: (_) => AuthProvider()),
