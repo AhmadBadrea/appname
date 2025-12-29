@@ -1,6 +1,10 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=C:\src\flutter
+<<<<<<< HEAD
 FLUTTER_APPLICATION_PATH=C:\appname
+=======
+FLUTTER_APPLICATION_PATH=C:\Users\Ahmed\appname
+>>>>>>> efb10aa88b9f1cad5d6b5109b5f6affe459cae58
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_BUILD_DIR=build
 FLUTTER_BUILD_NAME=1.0.0

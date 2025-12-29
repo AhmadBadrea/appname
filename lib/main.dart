@@ -21,20 +21,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // --- 4. استخدام MultiProvider لتوفير كل خدمات إدارة الحالة ---
     return MultiProvider(
-
       providers: [
         // توفير خدمة إدارة حالة المصادقة
         ChangeNotifierProvider(create: (_) => AuthProvider()),
         // توفير خدمة إدارة حالة الثيم
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
       ],
-
-
-
-
-
-
-
       // --- 5. استخدام Consumer لجعل MaterialApp يستجيب لتغييرات الثيم ---
       child: Consumer<ThemeProvider>(
         builder: (context, themeProvider, child) {
